@@ -80,7 +80,7 @@ export default function App() {
                   onClick={() => window.open('https://pandoravesteai.com/', '_blank')}
                   className="w-full py-6 bg-brand-gradient text-white rounded-full font-black text-xl shadow-xl flex items-center justify-center gap-3 group"
                 >
-                  Testar Grátis Agora
+                  Fazer Login Agora
                   <Zap className="w-6 h-6 fill-current group-hover:scale-110 transition-transform" />
                 </motion.button>
               ) : (
@@ -181,7 +181,7 @@ export default function App() {
             <button 
               onClick={() => setModalContent({
                 title: "Você Ganhou um Teste Grátis! 🎁",
-                content: "Teste agora mesmo um look em menos de 30 segundos! Use exclusivamente nossa tecnologia e veja o resultado com realismo impressionante.",
+                content: "Seus créditos já estão na conta! Faça seu login em 30 segundos para liberar seu acesso e criar looks ultra-realistas. Clique abaixo e comece sua transformação agora mesmo!",
                 isCTA: true
               })}
               className="w-full sm:w-auto px-10 py-5 bg-brand-gradient text-white rounded-full font-bold text-xl transition-all shadow-xl shadow-purple-500/30 hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3"
@@ -469,7 +469,7 @@ export default function App() {
               <button 
                 onClick={() => setModalContent({
                   title: "Sua Jornada Começa Aqui! ✨",
-                  content: "Você ganhou um teste grátis! Experimente agora mesmo um look em menos de 30 segundos. Use exclusivamente nossa IA e veja a mágica acontecer.",
+                  content: "Seus créditos já estão na conta! Faça seu login em 30 segundos para liberar seu acesso e criar looks ultra-realistas. Clique abaixo e comece sua transformação agora mesmo!",
                   isCTA: true
                 })}
                 className="w-full sm:w-auto px-10 py-5 bg-brand-gradient text-white rounded-full font-black text-xl shadow-xl hover:scale-105 transition-all flex items-center justify-center gap-3"
@@ -630,7 +630,7 @@ export default function App() {
               <button 
                 onClick={() => setModalContent({
                   title: "Escolha seu Plano Ideal 🚀",
-                  content: "Você acaba de ganhar um teste grátis! Use exclusivamente nossa tecnologia por 30 segundos e veja como o Pandora AI transforma seu estilo.",
+                  content: "Seus créditos já estão na conta! Faça seu login em 30 segundos para liberar seu acesso e criar looks ultra-realistas. Clique abaixo e comece sua transformação agora mesmo!",
                   isCTA: true
                 })}
                 className="w-full py-5 bg-white text-brand-900 rounded-full font-black text-lg hover:bg-brand-100 transition-all"
@@ -661,7 +661,7 @@ export default function App() {
               <button 
                 onClick={() => setModalContent({
                   title: "Acesso Premium Liberado! 💎",
-                  content: "Você ganhou um teste grátis! Use exclusivamente o poder total do Pandora AI agora mesmo em menos de 30 segundos.",
+                  content: "Seus créditos já estão na conta! Faça seu login em 30 segundos para liberar seu acesso e criar looks ultra-realistas. Clique abaixo e comece sua transformação agora mesmo!",
                   isCTA: true
                 })}
                 className="w-full py-6 bg-brand-gradient text-white rounded-full font-black text-xl transition-all shadow-xl shadow-purple-500/30"
