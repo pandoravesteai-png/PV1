@@ -26,7 +26,7 @@ export default function App() {
   const [modalContent, setModalContent] = React.useState<{ title: string; content: string; isCTA?: boolean } | null>(null);
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 font-sans selection:bg-brand-100 selection:text-brand-900">
+    <div className="min-h-screen bg-white text-slate-900 font-sans selection:bg-brand-100 selection:text-brand-900 overflow-x-hidden w-full">
       {/* Modal Popup */}
       {modalContent && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
@@ -77,7 +77,7 @@ export default function App() {
                     repeat: Infinity,
                     ease: "easeInOut"
                   }}
-                  onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
+                  onClick={() => window.open('https://pandoravesteai.com/', '_blank')}
                   className="w-full py-6 bg-brand-gradient text-white rounded-full font-black text-xl shadow-xl flex items-center justify-center gap-3 group"
                 >
                   Testar Grátis Agora
@@ -181,7 +181,7 @@ export default function App() {
             <button 
               onClick={() => setModalContent({
                 title: "Você Ganhou um Teste Grátis! 🎁",
-                content: "Teste agora mesmo um look em menos de 30 segundos! Mande uma foto sua e veja o resultado em poucos segundos com realismo impressionante.",
+                content: "Teste agora mesmo um look em menos de 30 segundos! Use exclusivamente nossa tecnologia e veja o resultado com realismo impressionante.",
                 isCTA: true
               })}
               className="w-full sm:w-auto px-10 py-5 bg-brand-gradient text-white rounded-full font-bold text-xl transition-all shadow-xl shadow-purple-500/30 hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3"
@@ -412,7 +412,7 @@ export default function App() {
       </section>
 
       {/* Bloco: Exclusividade */}
-      <section className="pt-1 pb-16 px-4 bg-slate-900 text-white rounded-[2.5rem] sm:rounded-[4rem] mx-2 sm:mx-4 shadow-2xl overflow-hidden relative">
+      <section className="pt-1 pb-16 px-4 bg-slate-900 text-white rounded-[2.5rem] sm:rounded-[4rem] shadow-2xl overflow-hidden relative">
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -469,7 +469,7 @@ export default function App() {
               <button 
                 onClick={() => setModalContent({
                   title: "Sua Jornada Começa Aqui! ✨",
-                  content: "Você ganhou um teste grátis! Experimente agora mesmo um look em menos de 30 segundos. Mande uma foto sua e veja a mágica acontecer.",
+                  content: "Você ganhou um teste grátis! Experimente agora mesmo um look em menos de 30 segundos. Use exclusivamente nossa IA e veja a mágica acontecer.",
                   isCTA: true
                 })}
                 className="w-full sm:w-auto px-10 py-5 bg-brand-gradient text-white rounded-full font-black text-xl shadow-xl hover:scale-105 transition-all flex items-center justify-center gap-3"
@@ -602,7 +602,7 @@ export default function App() {
       </section>
 
       {/* Bloco: Oferta Irresistível */}
-      <section id="precos" className="py-7 px-4 bg-brand-900 rounded-[2.5rem] sm:rounded-[4rem] mx-2 sm:mx-4 shadow-2xl overflow-hidden relative">
+      <section id="precos" className="py-7 px-4 bg-brand-900 rounded-[2.5rem] sm:rounded-[4rem] shadow-2xl overflow-hidden relative">
         <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
         </div>
@@ -630,7 +630,7 @@ export default function App() {
               <button 
                 onClick={() => setModalContent({
                   title: "Escolha seu Plano Ideal 🚀",
-                  content: "Você acaba de ganhar um teste grátis! Experimente agora mesmo um look em menos de 30 segundos e veja como o Pandora AI transforma seu estilo.",
+                  content: "Você acaba de ganhar um teste grátis! Use exclusivamente nossa tecnologia por 30 segundos e veja como o Pandora AI transforma seu estilo.",
                   isCTA: true
                 })}
                 className="w-full py-5 bg-white text-brand-900 rounded-full font-black text-lg hover:bg-brand-100 transition-all"
@@ -661,7 +661,7 @@ export default function App() {
               <button 
                 onClick={() => setModalContent({
                   title: "Acesso Premium Liberado! 💎",
-                  content: "Você ganhou um teste grátis! Experimente o poder total do Pandora AI agora mesmo em menos de 30 segundos.",
+                  content: "Você ganhou um teste grátis! Use exclusivamente o poder total do Pandora AI agora mesmo em menos de 30 segundos.",
                   isCTA: true
                 })}
                 className="w-full py-6 bg-brand-gradient text-white rounded-full font-black text-xl transition-all shadow-xl shadow-purple-500/30"
